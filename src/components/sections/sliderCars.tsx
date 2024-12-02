@@ -84,7 +84,7 @@ export default function SliderCars() {
       <div className="absolute bottom-0 z-10 flex h-[250px] w-full gap-3 overflow-x-auto overflow-y-hidden px-14 sm:justify-end">
         <SliderThumbnailItem
           itemActive={itemActive}
-          image="/images/esquadria.webp"
+          image="/images/Thumbnail/esquadria.png"
           id={1}
           name="Esquadrias"
           onClick={() => setItemActive(1)}
