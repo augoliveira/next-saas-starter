@@ -1,0 +1,33 @@
+[
+  {
+    "id": "sheep",
+    "title": "Sheep",
+    "description": "O box de vidro frontal é o mais vendido hoje em dia, sua grande variedade de cores e modelos, a Glazing Design têm diversos para te oferecer!",
+    "span": "Lembrando que ao pedir um orçamento, e se tiver dúvidas da cor do vidro do box, pode nos enviar uma foto do banheiro onde será instalado e daremos algumas dicas 😉",
+    "image": "/samples/BoxFlex.jpg",
+    "btnText": "especificações técnicas",
+    "width": 1600,
+    "height": 1067
+  },
+  {
+    "id": "Vidro Laminado",
+    "title": "Nature",
+    "image": "samples/landscapes/nature-mountains.jpg",
+    "width": 3000,
+    "height": 2000
+  },
+  {
+    "id": "leather-bag-gray",
+    "title": "Bag",
+    "image": "samples/ecommerce/leather-bag-gray.jpg",
+    "width": 2385,
+    "height": 1590
+  },
+  {
+    "id": "bike",
+    "title": "Bike",
+    "image": "samples/bike.jpg",
+    "width": 2000,
+    "height": 1333
+  }
+]

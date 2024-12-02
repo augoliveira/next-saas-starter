@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es2021",
     "lib": [
+      "ES2021",
       "dom",
       "dom.iterable",
       "esnext"
@@ -10,8 +11,13 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+    "outDir": "./build",
+    "sourceMap": false,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "noUnusedLocals": true,
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -24,10 +30,9 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+      "@/*": ["./src/*"],
+      "@/public/*": ["./public/*"]
+    },
   },
   "include": [
     "next-env.d.ts",
@@ -36,6 +41,11 @@
     ".next/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "build",
+    "coverage",
+    "**/__tests__",
+    "**/*.spec.ts",
+    "**/*.test.ts"
   ]
 }
