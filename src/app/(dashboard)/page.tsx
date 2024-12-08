@@ -1,12 +1,10 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, CreditCard, Database } from 'lucide-react';
 import { Terminal } from './terminal';
+import dynamic from 'next/dynamic'
 
 
-import SliderCars from '@/components/sections/sliderCars';
-
-export const experimental_ppr = true
-
+const SliderCars = dynamic(() => import('@/components/sections/sliderCars'))
 export default function HomePage() {
   return (
     <main>
