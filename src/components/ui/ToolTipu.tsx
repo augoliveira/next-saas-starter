@@ -1,5 +1,5 @@
 "use client";
-import { FC, ReactNode, useRef } from "react";
+import { FC, ReactNode, useRef, type JSX } from 'react';
 
 interface Props {
   children: ReactNode;

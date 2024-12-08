@@ -35,6 +35,7 @@ declare global {
       children?: ReactNode;
       speed?: string;
       class?: string;
+      className: string
     }
     interface SwiperSlideAttributes {
       // add manually

@@ -1,14 +1,16 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, CreditCard, Database } from 'lucide-react';
 import { Terminal } from './terminal';
+
+
 import SliderCars from '@/components/sections/sliderCars';
 
-
+export const experimental_ppr = true
 
 export default function HomePage() {
   return (
     <main>
-      <SliderCars />
+        <SliderCars />
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
